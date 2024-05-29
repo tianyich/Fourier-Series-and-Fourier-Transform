@@ -5,7 +5,7 @@
     "homepage": "https://tianyich.github.io/Fourier-Series-and-Fourier-Transform/",
 	"scripts": {
         "predeploy" : "npm run build",
-        "deploy" : "gh-pages -d .svelte-kit/output",
+        "deploy" : "gh-pages -d .svelte-kit",
 		"dev": "vite dev",
 		"build": "vite build",
 		"preview": "vite preview"
