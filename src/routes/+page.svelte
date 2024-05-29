@@ -1,4 +1,5 @@
 <script>
+    export const prerender = true;
     import Title from "../components/Title.svelte";
     import Plot from "../components/Plot.svelte";
     import Scrolly from "../components/Scrolly.svelte";
