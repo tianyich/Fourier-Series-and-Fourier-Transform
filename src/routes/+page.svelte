@@ -1,2 +1,31 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+    import Title from "../components/Title.svelte";
+    import Plot from "../components/Plot.svelte";
+    import Scrolly from "../components/Scrolly.svelte";
+</script>
+
+<main>
+    <Title />
+    <Plot />
+    <Scrolly />
+</main>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+    main {
+        margin: 0em;
+        font-family: 'Roboto', sans-serif;
+        padding: 0.5em;
+        top: 0px;
+        left: 20em;
+        right: 20em;
+        width: 100%;
+        height: 100vh;
+        box-sizing: border-box;
+        -ms-overflow-style: none; /* IE and Edge */
+        scrollbar-width: none; /* Firefox */
+    }
+    main::-webkit-scrollbar {
+        display: none;
+    }
+</style>
